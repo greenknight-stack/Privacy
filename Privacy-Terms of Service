@@ -1,15 +1,6 @@
-// Canonical legal copy. Edit here — surfaces in:
-//   • app/legal/privacy.tsx
-//   • app/legal/terms.tsx
-//   • App Store Connect Privacy Policy URL (host this text on your domain)
+LEGAL_EFFECTIVE_DATE = June 27, 2026
 
-export const LEGAL_EFFECTIVE_DATE = "June 27, 2026";
-export const SUPPORT_EMAIL = "support@catalystbhconsulting.com";
-export const COMPANY_NAME = "Catalyst Behavioral Health Consulting LLC";
-
-export const PRIVACY_POLICY = `Effective ${LEGAL_EFFECTIVE_DATE}
-
-Psyche Library ("the App") is built and operated by ${COMPANY_NAME} ("we", "us"). This Privacy Policy explains what data we collect, why, and how you can delete it.
+Psyche Library ("the App") is built and operated by Catalyst Behavioral Health Consulting LLC ("we", "us"). This Privacy Policy explains what data we collect, why, and how you can delete it.
 
 ────────────────────
 1. WHAT WE COLLECT
@@ -79,7 +70,7 @@ Open the app → Profile tab → "Delete account". This permanently removes:
 
 Deletion is immediate and irreversible. There is no separate web form to fill out; everything happens inside the app, per Apple Guideline 5.1.1(v).
 
-If you cannot reach the app for any reason, email ${SUPPORT_EMAIL} from the account's email address and we will delete the account within 5 business days.
+If you cannot reach the app for any reason, email support@catalystbhconsulting.com from the account's email address and we will delete the account within 5 business days.
 
 ────────────────────
 6. CHILDREN
@@ -91,17 +82,15 @@ Psyche Library is intended for clinicians, researchers, and graduate students. I
 7. CONTACT
 ────────────────────
 
-Questions or requests: ${SUPPORT_EMAIL}
+Questions or requests: support@catalystbhconsulting.com
 
 ────────────────────
 8. CHANGES
 ────────────────────
 
-Material changes to this policy will be reflected in the Effective date above and, where appropriate, surfaced inside the app.`;
+Material changes to this policy will be reflected in the Effective date above and, where appropriate, surfaced inside the app.
 
-export const TERMS_OF_SERVICE = `Effective ${LEGAL_EFFECTIVE_DATE}
-
-Welcome to Psyche Library, operated by ${COMPANY_NAME}. By creating an account you agree to these terms.
+Welcome to Psyche Library, operated by Catalyst Behavioral Health Consulting LLC. By creating an account you agree to these terms.
 
 ────────────────────
 1. WHAT THE APP IS
@@ -146,7 +135,7 @@ The App is provided "AS IS" without warranties of any kind. We do not guarantee 
 7. LIABILITY
 ────────────────────
 
-To the maximum extent permitted by law, ${COMPANY_NAME} is not liable for any indirect, consequential, or incidental damages arising from your use of the App, including clinical decisions made in reliance on AI-generated summaries.
+To the maximum extent permitted by law, Catalyst Behavioral Health Consulting LLC is not liable for any indirect, consequential, or incidental damages arising from your use of the App, including clinical decisions made in reliance on AI-generated summaries.
 
 ────────────────────
 8. CHANGES
@@ -158,4 +147,4 @@ We may update these terms. Continued use of the App after the Effective date abo
 9. CONTACT
 ────────────────────
 
-${SUPPORT_EMAIL}`;
+support@catalystbhconsulting.com
