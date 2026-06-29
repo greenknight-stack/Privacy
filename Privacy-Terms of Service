@@ -1,0 +1,161 @@
+// Canonical legal copy. Edit here — surfaces in:
+//   • app/legal/privacy.tsx
+//   • app/legal/terms.tsx
+//   • App Store Connect Privacy Policy URL (host this text on your domain)
+
+export const LEGAL_EFFECTIVE_DATE = "June 27, 2026";
+export const SUPPORT_EMAIL = "support@catalystbhconsulting.com";
+export const COMPANY_NAME = "Catalyst Behavioral Health Consulting LLC";
+
+export const PRIVACY_POLICY = `Effective ${LEGAL_EFFECTIVE_DATE}
+
+Psyche Library ("the App") is built and operated by ${COMPANY_NAME} ("we", "us"). This Privacy Policy explains what data we collect, why, and how you can delete it.
+
+────────────────────
+1. WHAT WE COLLECT
+────────────────────
+
+Account data
+• Email address
+• Display name (optional)
+• Password (stored only as a bcrypt hash — we cannot see your password)
+
+Library data
+• Articles you bookmark
+• Searches you run and save
+• Articles you open (history)
+• AI literature reviews you generate
+• Citation-graph "scrape" jobs you start
+
+Device data (when you opt in to notifications)
+• Expo push token associated with your account
+
+We do NOT collect:
+• Location, contacts, calendars, photos, microphone, or camera data
+• Advertising identifiers (IDFA / GAID)
+• Analytics or telemetry of how you use the app
+• Health, biometric, or sensitive-category data
+
+────────────────────
+2. HOW WE USE IT
+────────────────────
+
+• To let you sign in across devices.
+• To save your bookmarks, history, and saved searches.
+• To send weekly research-digest emails IF you turn that on in Profile. You can turn it off any time.
+• To send push notifications about saved-search matches IF you tap "Enable notifications" in Profile.
+• To search third-party academic databases (PubMed, CrossRef, Europe PMC, OpenAlex, Semantic Scholar, DOAJ, arXiv) and the open web via Tavily, using only the query text you type — your account email is never sent to them.
+• To generate AI summaries and literature reviews via Anthropic's Claude. Only article titles and abstracts are sent; your email and bookmarks are not.
+
+────────────────────
+3. WHO WE SHARE WITH
+────────────────────
+
+We share data only with the processors required to run the service:
+
+• Resend (transactional email — for digest emails and password resets)
+• Anthropic (Claude — for AI summaries; query + article excerpts only)
+• Tavily (open-web search — query text only)
+• MongoDB Atlas (database)
+• Apple Push Notification service / Firebase Cloud Messaging (for push tokens — only if you enabled notifications)
+
+We do NOT sell your data, share it for advertising, or use it to train AI models.
+
+────────────────────
+4. HOW LONG WE KEEP IT
+────────────────────
+
+We keep your account data until you delete your account. Anonymous summary caches (keyed only by article ID) may be retained to speed up the app for all users — these contain no personal data.
+
+────────────────────
+5. DELETING YOUR DATA
+────────────────────
+
+Open the app → Profile tab → "Delete account". This permanently removes:
+• Your user record
+• All bookmarks, history, saved searches, scrape jobs
+• All password-reset records
+• Your push token (if any)
+
+Deletion is immediate and irreversible. There is no separate web form to fill out; everything happens inside the app, per Apple Guideline 5.1.1(v).
+
+If you cannot reach the app for any reason, email ${SUPPORT_EMAIL} from the account's email address and we will delete the account within 5 business days.
+
+────────────────────
+6. CHILDREN
+────────────────────
+
+Psyche Library is intended for clinicians, researchers, and graduate students. It is not directed to children under 13, and we do not knowingly collect data from them.
+
+────────────────────
+7. CONTACT
+────────────────────
+
+Questions or requests: ${SUPPORT_EMAIL}
+
+────────────────────
+8. CHANGES
+────────────────────
+
+Material changes to this policy will be reflected in the Effective date above and, where appropriate, surfaced inside the app.`;
+
+export const TERMS_OF_SERVICE = `Effective ${LEGAL_EFFECTIVE_DATE}
+
+Welcome to Psyche Library, operated by ${COMPANY_NAME}. By creating an account you agree to these terms.
+
+────────────────────
+1. WHAT THE APP IS
+────────────────────
+
+Psyche Library is a research aggregator. It searches public academic databases (PubMed, CrossRef, Europe PMC, OpenAlex, Semantic Scholar, DOAJ, arXiv) and the open web, summarizes findings with AI, and lets you save, bookmark, and review articles. It is NOT a clinical decision-support tool, NOT a replacement for primary literature reading, and NOT a substitute for licensed clinical judgment.
+
+────────────────────
+2. AI-GENERATED CONTENT
+────────────────────
+
+AI summaries and literature reviews are produced by large language models (Anthropic Claude). They can be inaccurate, miss context, or hallucinate citations. ALWAYS verify any clinical, diagnostic, or treatment claim against the underlying source articles before relying on it. You are solely responsible for your use of AI-generated text.
+
+────────────────────
+3. YOUR ACCOUNT
+────────────────────
+
+You are responsible for keeping your password secure and for any activity under your account. You may delete your account inside the app at any time (Profile → Delete account).
+
+────────────────────
+4. ACCEPTABLE USE
+────────────────────
+
+Do not:
+• Use the App to scrape, redistribute, or republish third-party academic content at scale beyond personal research use.
+• Attempt to bypass rate limits or reverse-engineer the App.
+• Use the App to provide clinical care, diagnoses, or treatment recommendations to third parties without independent professional judgment.
+
+────────────────────
+5. THIRD-PARTY DATA
+────────────────────
+
+Article metadata, abstracts, and links surface from public APIs. Their copyright belongs to the respective publishers. The App provides links to the publisher's page for paid full text — Psyche Library does not bypass paywalls.
+
+────────────────────
+6. NO WARRANTY
+────────────────────
+
+The App is provided "AS IS" without warranties of any kind. We do not guarantee that the App will be uninterrupted, accurate, complete, or fit for any particular purpose.
+
+────────────────────
+7. LIABILITY
+────────────────────
+
+To the maximum extent permitted by law, ${COMPANY_NAME} is not liable for any indirect, consequential, or incidental damages arising from your use of the App, including clinical decisions made in reliance on AI-generated summaries.
+
+────────────────────
+8. CHANGES
+────────────────────
+
+We may update these terms. Continued use of the App after the Effective date above constitutes acceptance.
+
+────────────────────
+9. CONTACT
+────────────────────
+
+${SUPPORT_EMAIL}`;
