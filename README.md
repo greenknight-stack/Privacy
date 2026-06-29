@@ -1,5 +1,5 @@
 # Privacy
-# Privacy
+
 # Psyche Library
 
 A brief, one-to-two sentence description of what this project does and who it is for.
